@@ -1,0 +1,17 @@
+Le Wi-Fi de 42 Paris est accessible aux étudiants. La méthode de connexion varie en fonction du système d'exploitation utilisé et si on est sur l'Intranet v2/v3 ou 42 Next (rentrée d'avril 2026).
+
+## Pour se connecter au Wi-Fi lorsque l'on utilise l'Intranet v2/v3 :
+ - Le réseau à rejoindre est nommé `42Paris`.
+ - L'authentification est effectuée via une méthode TTLS ou PEAP, avec un mot de passe associé.
+ - L'identité est votre identifiant Intra et le mot de passe peut varier selon la méthode choisie (voir ci-dessus).
+ - Le certificat CA peut être TOFU (Trust On First Use) ou téléchargé depuis [wifi.42paris.fr](https://wifi.42paris.fr/).
+ - La validation du certificat est désactivée.
+ - Pour les systèmes iOS, Apple Watch et MacOS, il est nécessaire de télécharger et d'installer un profil spécifique disponible ici : [https://certificate.42paris.fr/profile.mobileconfig](https://certificate.42paris.fr/profile.mobileconfig).
+ - Pour les autres systèmes, des guides sont disponibles en cliquant sur la section "📱 Guides spécifiques aux systèmes d'exploitation" du document Wi-Fi.md.
+ - Pour configurer le Wi-Fi via la ligne de commande (Linux/NetworkManager), utilisez les instructions fournies en cliquant sur la section "💻 Configuration de la ligne de commande (Linux / NetworkManager)" du document Wi-Fi.md.
+
+## Je suis sur 42 Next:
+ - Connectez-vous au wifi `42Paris Guest` 
+ - Un portail de connexion va s’ouvrir
+ - Entrez le code `58380-57966` 
+ 
