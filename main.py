@@ -127,6 +127,7 @@ def analyze_and_improve(current_prompt: str, missing: dict) -> str:
         INSTRUCTIONS :
         - Produis une NOUVELLE version du prompt qui permettra au LLM de faire apparaitre
           TOUS les elements manquants dans sa reponse.
+        - Dans les modification que tu va effectuer pour produire le nouveau prompt, TU NE DOIS PAS Donner des instructions qui mentionnent precisement des element manquant de la reponse.
         - Ce prompt doit etre generique car doit pouvoir etre adape a dautres sujet ! les instructions a modifier ou ajouter devront sans doutes faire reference a l'exhaustivite.
         - Retourne UNIQUEMENT le nouveau prompt, sans guillemets, sans markdown, sans explication.
 
